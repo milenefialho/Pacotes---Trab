@@ -2,20 +2,19 @@ from graphicsmilens import Graficos
 
 #barra
 
-#aux = Graficos('testbar.csv')
+aux = Graficos('testbar.csv')
 
-#aux.barra('coluna1','coluna2',legenda = 'x', tit = 'x' , xlabel = 'x', ylabel = 'y') 
+aux.barra('coluna1','coluna2',legenda = 'x', tit = 'Grafico de barra' , xlabel = 'x', ylabel = 'y') 
 
 
 #pizza
 
-aux2 = Graficos('testpiz.csv')
+#aux2 = Graficos('testpiz.csv')
 
 #cores = ['red','green','black','pink','blue'] 
-labels = [r'vendas', r'gastos',r'despesas', r'imoveis',r'aluguel']
+#labels = [r'vendas', r'gastos',r'despesas', r'imoveis',r'aluguel']
 
-
-aux2.pizza('coluna1','Gráfico de Vendas Lanchonete UFPI',labels,cores='-')
+#aux2.pizza('coluna1','Gráfico de Vendas Lanchonete UFPI',labels,cores)
 
 #ponto
 
@@ -24,8 +23,6 @@ aux2.pizza('coluna1','Gráfico de Vendas Lanchonete UFPI',labels,cores='-')
 
 #linhas
 
-#ponto
-
 #aux4 = Graficos('test.csv')
 
-#aux4.linha('coluna1','coluna2',legenda='vendas',tit='Grafico de Ponto',xlabel='x',ylabel='y')
+#aux4.linha('coluna1','coluna2',legenda='vendas',tit='Grafico de linha',xlabel='x',ylabel='y')
